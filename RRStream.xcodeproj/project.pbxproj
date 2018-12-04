@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8925A17C2190EBD3006DBE4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A17B2190EBD3006DBE4B /* AppDelegate.m */; };
-		8925A17F2190EBD3006DBE4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A17E2190EBD3006DBE4B /* ViewController.m */; };
-		8925A1822190EBD3006DBE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8925A1802190EBD3006DBE4B /* Main.storyboard */; };
 		8925A1842190EBD4006DBE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8925A1832190EBD4006DBE4B /* Assets.xcassets */; };
 		8925A1872190EBD4006DBE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8925A1852190EBD4006DBE4B /* LaunchScreen.storyboard */; };
 		8925A18A2190EBD4006DBE4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1892190EBD4006DBE4B /* main.m */; };
-		8925A1942190EBD4006DBE4B /* RRStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1932190EBD4006DBE4B /* RRStreamTests.m */; };
+		8925A1A22190EC5B006DBE4B /* Streams.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8925A1A12190EC5B006DBE4B /* Streams.storyboard */; };
+		8925A1B12190EE59006DBE4B /* RRWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1B02190EE59006DBE4B /* RRWebService.m */; };
+		8925A1B62190EFE7006DBE4B /* RRStreamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1B52190EFE7006DBE4B /* RRStreamsViewController.m */; };
+		8925A1BB2190FAA5006DBE4B /* RRStreamsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1BA2190FAA5006DBE4B /* RRStreamsTableViewCell.m */; };
+		8925A1F121910D0A006DBE4B /* RRStream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1EF21910D0A006DBE4B /* RRStream.xcdatamodeld */; };
+		8925A1F821910F64006DBE4B /* RRCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8925A1F721910F64006DBE4B /* RRCoreData.m */; };
+		8925A1FF219113E5006DBE4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8925A1FE219113E5006DBE4B /* CoreData.framework */; };
+		8983E8A321912FF0002E78E2 /* RRFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8A221912FF0002E78E2 /* RRFileManager.m */; };
+		8983E8A82191444F002E78E2 /* RRDownloadOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8A72191444F002E78E2 /* RRDownloadOperationQueue.m */; };
+		8983E8AB219144A8002E78E2 /* RRDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8AA219144A8002E78E2 /* RRDownloadOperation.m */; };
+		8983E8B121916194002E78E2 /* RRStream+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8AF21916194002E78E2 /* RRStream+CoreDataClass.m */; };
+		8983E8B221916194002E78E2 /* RRStream+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8B021916194002E78E2 /* RRStream+CoreDataProperties.m */; };
+		8983E8B42191D74C002E78E2 /* RRWebServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8B32191D74C002E78E2 /* RRWebServiceTests.m */; };
+		8983E8B7219208DC002E78E2 /* RRCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8983E8B6219208DC002E78E2 /* RRCoreDataTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +41,38 @@
 		8925A1772190EBD3006DBE4B /* RRStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8925A17A2190EBD3006DBE4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8925A17B2190EBD3006DBE4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8925A17D2190EBD3006DBE4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8925A17E2190EBD3006DBE4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8925A1812190EBD3006DBE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8925A1832190EBD4006DBE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8925A1862190EBD4006DBE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8925A1882190EBD4006DBE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8925A1892190EBD4006DBE4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8925A18F2190EBD4006DBE4B /* RRStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8925A1932190EBD4006DBE4B /* RRStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRStreamTests.m; sourceTree = "<group>"; };
 		8925A1952190EBD4006DBE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8925A1A12190EC5B006DBE4B /* Streams.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Streams.storyboard; sourceTree = "<group>"; };
+		8925A1AF2190EE59006DBE4B /* RRWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRWebService.h; sourceTree = "<group>"; };
+		8925A1B02190EE59006DBE4B /* RRWebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRWebService.m; sourceTree = "<group>"; };
+		8925A1B32190EEED006DBE4B /* RRConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRConstants.h; sourceTree = "<group>"; };
+		8925A1B42190EFE7006DBE4B /* RRStreamsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRStreamsViewController.h; sourceTree = "<group>"; };
+		8925A1B52190EFE7006DBE4B /* RRStreamsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRStreamsViewController.m; sourceTree = "<group>"; };
+		8925A1B92190FAA5006DBE4B /* RRStreamsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRStreamsTableViewCell.h; sourceTree = "<group>"; };
+		8925A1BA2190FAA5006DBE4B /* RRStreamsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRStreamsTableViewCell.m; sourceTree = "<group>"; };
+		8925A1F021910D0A006DBE4B /* RRStream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RRStream.xcdatamodel; sourceTree = "<group>"; };
+		8925A1F621910F64006DBE4B /* RRCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRCoreData.h; sourceTree = "<group>"; };
+		8925A1F721910F64006DBE4B /* RRCoreData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCoreData.m; sourceTree = "<group>"; };
+		8925A1FE219113E5006DBE4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8983E85C219114F3002E78E2 /* RRStream 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RRStream 2.xcdatamodel"; sourceTree = "<group>"; };
+		8983E8A121912FF0002E78E2 /* RRFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFileManager.h; sourceTree = "<group>"; };
+		8983E8A221912FF0002E78E2 /* RRFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFileManager.m; sourceTree = "<group>"; };
+		8983E8A62191444F002E78E2 /* RRDownloadOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRDownloadOperationQueue.h; sourceTree = "<group>"; };
+		8983E8A72191444F002E78E2 /* RRDownloadOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRDownloadOperationQueue.m; sourceTree = "<group>"; };
+		8983E8A9219144A8002E78E2 /* RRDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRDownloadOperation.h; sourceTree = "<group>"; };
+		8983E8AA219144A8002E78E2 /* RRDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRDownloadOperation.m; sourceTree = "<group>"; };
+		8983E8AC21916181002E78E2 /* RRStream 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RRStream 3.xcdatamodel"; sourceTree = "<group>"; };
+		8983E8AD21916194002E78E2 /* RRStream+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRStream+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8983E8AE21916194002E78E2 /* RRStream+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRStream+CoreDataClass.h"; sourceTree = "<group>"; };
+		8983E8AF21916194002E78E2 /* RRStream+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RRStream+CoreDataClass.m"; sourceTree = "<group>"; };
+		8983E8B021916194002E78E2 /* RRStream+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RRStream+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8983E8B32191D74C002E78E2 /* RRWebServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRWebServiceTests.m; sourceTree = "<group>"; };
+		8983E8B6219208DC002E78E2 /* RRCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCoreDataTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8925A1FF219113E5006DBE4B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +100,7 @@
 				8925A1792190EBD3006DBE4B /* RRStream */,
 				8925A1922190EBD4006DBE4B /* RRStreamTests */,
 				8925A1782190EBD3006DBE4B /* Products */,
+				8925A1FD219113E5006DBE4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +118,10 @@
 			children = (
 				8925A17A2190EBD3006DBE4B /* AppDelegate.h */,
 				8925A17B2190EBD3006DBE4B /* AppDelegate.m */,
-				8925A17D2190EBD3006DBE4B /* ViewController.h */,
-				8925A17E2190EBD3006DBE4B /* ViewController.m */,
-				8925A1802190EBD3006DBE4B /* Main.storyboard */,
+				8925A19E2190EBF4006DBE4B /* Scenes */,
+				8925A1A52190ED7A006DBE4B /* Views */,
+				8925A1A62190ED93006DBE4B /* Models */,
+				8925A1B22190EED2006DBE4B /* Utility */,
 				8925A1832190EBD4006DBE4B /* Assets.xcassets */,
 				8925A1852190EBD4006DBE4B /* LaunchScreen.storyboard */,
 				8925A1882190EBD4006DBE4B /* Info.plist */,
@@ -97,10 +133,92 @@
 		8925A1922190EBD4006DBE4B /* RRStreamTests */ = {
 			isa = PBXGroup;
 			children = (
-				8925A1932190EBD4006DBE4B /* RRStreamTests.m */,
 				8925A1952190EBD4006DBE4B /* Info.plist */,
+				8983E8B32191D74C002E78E2 /* RRWebServiceTests.m */,
+				8983E8B6219208DC002E78E2 /* RRCoreDataTests.m */,
 			);
 			path = RRStreamTests;
+			sourceTree = "<group>";
+		};
+		8925A19E2190EBF4006DBE4B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1A32190EC62006DBE4B /* Streams */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8925A1A32190EC62006DBE4B /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1A12190EC5B006DBE4B /* Streams.storyboard */,
+				8925A1B42190EFE7006DBE4B /* RRStreamsViewController.h */,
+				8925A1B52190EFE7006DBE4B /* RRStreamsViewController.m */,
+			);
+			path = Streams;
+			sourceTree = "<group>";
+		};
+		8925A1A52190ED7A006DBE4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1B92190FAA5006DBE4B /* RRStreamsTableViewCell.h */,
+				8925A1BA2190FAA5006DBE4B /* RRStreamsTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8925A1A62190ED93006DBE4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8983E8A421913EDB002E78E2 /* CoreData */,
+				8983E8A521913EF3002E78E2 /* Web Service */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8925A1B22190EED2006DBE4B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1B32190EEED006DBE4B /* RRConstants.h */,
+				8983E8A121912FF0002E78E2 /* RRFileManager.h */,
+				8983E8A221912FF0002E78E2 /* RRFileManager.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8925A1FD219113E5006DBE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1FE219113E5006DBE4B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8983E8A421913EDB002E78E2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1EF21910D0A006DBE4B /* RRStream.xcdatamodeld */,
+				8925A1F621910F64006DBE4B /* RRCoreData.h */,
+				8925A1F721910F64006DBE4B /* RRCoreData.m */,
+				8983E8AD21916194002E78E2 /* RRStream+CoreDataProperties.h */,
+				8983E8AE21916194002E78E2 /* RRStream+CoreDataClass.h */,
+				8983E8AF21916194002E78E2 /* RRStream+CoreDataClass.m */,
+				8983E8B021916194002E78E2 /* RRStream+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8983E8A521913EF3002E78E2 /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				8925A1AF2190EE59006DBE4B /* RRWebService.h */,
+				8925A1B02190EE59006DBE4B /* RRWebService.m */,
+				8983E8A62191444F002E78E2 /* RRDownloadOperationQueue.h */,
+				8983E8A72191444F002E78E2 /* RRDownloadOperationQueue.m */,
+				8983E8A9219144A8002E78E2 /* RRDownloadOperation.h */,
+				8983E8AA219144A8002E78E2 /* RRDownloadOperation.m */,
+			);
+			path = "Web Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +270,7 @@
 				TargetAttributes = {
 					8925A1762190EBD3006DBE4B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					8925A18E2190EBD4006DBE4B = {
 						CreatedOnToolsVersion = 10.1;
@@ -185,7 +304,7 @@
 			files = (
 				8925A1872190EBD4006DBE4B /* LaunchScreen.storyboard in Resources */,
 				8925A1842190EBD4006DBE4B /* Assets.xcassets in Resources */,
-				8925A1822190EBD3006DBE4B /* Main.storyboard in Resources */,
+				8925A1A22190EC5B006DBE4B /* Streams.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8925A17F2190EBD3006DBE4B /* ViewController.m in Sources */,
+				8925A1B62190EFE7006DBE4B /* RRStreamsViewController.m in Sources */,
+				8983E8AB219144A8002E78E2 /* RRDownloadOperation.m in Sources */,
+				8925A1BB2190FAA5006DBE4B /* RRStreamsTableViewCell.m in Sources */,
+				8925A1B12190EE59006DBE4B /* RRWebService.m in Sources */,
+				8925A1F821910F64006DBE4B /* RRCoreData.m in Sources */,
 				8925A18A2190EBD4006DBE4B /* main.m in Sources */,
 				8925A17C2190EBD3006DBE4B /* AppDelegate.m in Sources */,
+				8983E8B221916194002E78E2 /* RRStream+CoreDataProperties.m in Sources */,
+				8925A1F121910D0A006DBE4B /* RRStream.xcdatamodeld in Sources */,
+				8983E8A82191444F002E78E2 /* RRDownloadOperationQueue.m in Sources */,
+				8983E8A321912FF0002E78E2 /* RRFileManager.m in Sources */,
+				8983E8B121916194002E78E2 /* RRStream+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8925A1942190EBD4006DBE4B /* RRStreamTests.m in Sources */,
+				8983E8B7219208DC002E78E2 /* RRCoreDataTests.m in Sources */,
+				8983E8B42191D74C002E78E2 /* RRWebServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8925A1802190EBD3006DBE4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8925A1812190EBD3006DBE4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8925A1852190EBD4006DBE4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,15 +484,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4LJ2YC4BS;
 				INFOPLIST_FILE = RRStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.railroad19.RRStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RRStream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -380,15 +506,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4LJ2YC4BS;
 				INFOPLIST_FILE = RRStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.railroad19.RRStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RRStream-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -462,6 +592,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8925A1EF21910D0A006DBE4B /* RRStream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8983E8AC21916181002E78E2 /* RRStream 3.xcdatamodel */,
+				8983E85C219114F3002E78E2 /* RRStream 2.xcdatamodel */,
+				8925A1F021910D0A006DBE4B /* RRStream.xcdatamodel */,
+			);
+			currentVersion = 8983E8AC21916181002E78E2 /* RRStream 3.xcdatamodel */;
+			path = RRStream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8925A16F2190EBD3006DBE4B /* Project object */;
 }

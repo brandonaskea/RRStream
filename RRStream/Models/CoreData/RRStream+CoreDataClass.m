@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  RRStream+CoreDataClass.m
 //  RRStream
 //
 //  Created by Brandon Askea on 11/5/18.
 //  Copyright © 2018 Brandon Askea. All rights reserved.
 //
+//
 
-#import <UIKit/UIKit.h>
+#import "RRStream+CoreDataClass.h"
 
-@interface ViewController : UIViewController
-
+@implementation RRStream
 
 @end
-
